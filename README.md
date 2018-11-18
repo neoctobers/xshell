@@ -1,7 +1,6 @@
 # xshell
 
-Run `xshell.embed()`, you can do anything.
-
+Run `xshell.embed()`, you can do anything, in the Interactive Console.
 ## Installation
 
 ```
@@ -12,5 +11,5 @@ $ pip3 install xshell
 
 Write this anywhere.
 ```
-xshell.embed('You can do anything here, in the console.')
+xshell.embed('Are you ready?')
 ```

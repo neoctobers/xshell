@@ -6,10 +6,10 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="xshell",
-    version="1.0.2",
+    version="1.4",
     author="@neoctobers",
     author_email="neoctobers@gmail.com",
-    description="Run `xshell.embed()`, you can do anything.",
+    description="Run `xshell.embed()`, you can do anything, in the Interactive Console.",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/neoctobers/xshell",
