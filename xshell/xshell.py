@@ -53,8 +53,7 @@ def embed(banner='', local=None, shell=None):
 
     import inspect
 
-    if local is None:
-        local = inspect.currentframe().f_back.f_locals
+    local = local or inspect.currentframe().f_back.f_locals
 
     if isinstance(shell, str):
         shell = shell.strip().lower()
