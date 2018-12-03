@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="xshell",
-    version="1.4",
+    version="1.4.1",
     author="@neoctobers",
     author_email="neoctobers@gmail.com",
     description="Run `xshell.embed()`, you can do anything, in the Interactive Console.",
